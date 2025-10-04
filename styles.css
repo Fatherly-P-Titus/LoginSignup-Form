@@ -1,0 +1,53 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 5px 10px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: #ffffff;
+}
+
+.button {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #ecf0f1;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 5px 5px 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #3498db;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: #2c3e50;
+}
